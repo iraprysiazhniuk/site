@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Cabinet</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/cabinet.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div class="nav">
+                <div class="logo">
+                        <img src="img/logo.png">
+                      </div>
+                <ul>
+                        <li><a href="">Профиль</a></li>
+                        <li><a href="">Меню</a></li>
+                        <li><a href="">Фотографии</a></li>
+                    </ul>
+         
+         </div>
+        <div class="main">
+            <div class="data">
+                <h3>Общие данные</h3>
+                <label for="name">Название</label>
+                <input type="text" name="name" placeholder="Название" id="name"><br>
+                <label for="type">Тип заведение</label>
+                <select size="1" multiple name="institution">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                </select><br>
+                <label for="photo">828x515</label><br>
+
+		        <label for="site">Сайт</label>
+                <input type="text" name="site" placeholder="www" id="site"><br>
+                <label for="phone">Телефон</label>
+                <input type="text" name="phone" placeholder="+8" id="phone">
+            </div>
+            <div class="address">
+                <h3>Адрес</h3>
+                <label for="district">Район города</label>
+                <select size="1" multiple name="district">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                </select><br>
+                <label for="street">Улица</label>
+                <input type="text" name="street" id="street"><br>
+                <label for="number">Номер дома</label>
+                <input type="text" name="number" id="number"><br>
+                <label for="floor">Этаж</label>
+                <input type="text" name="floor" id="floor"><br>
+                <label for="coordinates">Координаты</label>
+                <img class="coordinates" src="img/coordinates.png"><br>
+                <label for="latitude">Широта</label>
+                <input type="text" name="latitude" id="latitude">
+                <label for="longitude">Долгота</label>
+                <input type="text" name="longitude" id="longitude">
+            </div>
+            <div class="schedule">
+                <h3>График работы</h3>
+                <img class="clock1" src="img/clock.png">
+                <img class="clock2" src="img/clock.png">
+                <img class="clock3" src="img/clock.png">
+                <img class="clock4" src="img/clock.png">
+                <img class="clock5" src="img/clock.png">
+                <img class="clock6" src="img/clock.png">
+                <img class="clock7" src="img/clock.png">
+            </div>
+        </div>
+        
+</body>
+</html>
