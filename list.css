@@ -5,6 +5,7 @@ html{
 }
 
 body{
+position: relative;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -93,7 +94,7 @@ section{
   position: absolute;
   width: 228px;
   height: 112px;
-  left: 1700px;
+  right: 5px;
   top: 165px;
   color: #A4B0BE;
   
